@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Ecommerce website</title>
+    <link rel="stylesheet" href="order.css">
+    <script src="https://kit.fontawesome.com/0e53af926d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div class="header-logo">
+                <a href="index.html"><img src="images/logo.png" alt="Company Logo"></a>
+            </div>
+            <div class="header-list">
+                <nav class="header-list-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-list-icon">
+                    <a href="order.html" class="active" aria-label="Shopping Cart"><i class="fa fa-bag-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="order-hero">
+            <h1>#cart</h1>
+            <p>Add your coupon code & SAVE up to 70%!</p>
+        </section>
+
+        <section id="cart" class="section-p1">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Remove</th>
+                        <th>Image</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#" aria-label="Remove item"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="images/products/f1.jpg" alt="Cartoon Astronaut T-Shirt"></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td>$78.00</td>
+                        <td><input type="number" value="1" min="1" aria-label="Quantity"></td>
+                        <td>$78.00</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" aria-label="Remove item"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="images/products/f2.jpg" alt="Floral Print Shirt"></td>
+                        <td>Floral Print Shirt</td>
+                        <td>$68.00</td>
+                        <td><input type="number" value="1" min="1" aria-label="Quantity"></td>
+                        <td>$68.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h2>Apply Coupon</h2>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon" aria-label="Coupon code">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h2>Cart Totals</h2>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$146.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$146.00</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="newsletter-text">
+                <h2>Sign Up For Newsletters</h2>
+                <p>Get e-mail updates about our latest shop and <span>special offers</span></p>
+            </div>
+            <div class="form">
+                <input type="email" placeholder="Your email address" id="email-address-input" aria-label="Email address">
+                <button>Sign Up</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="contact">
+                <a href="index.html"><img src="images/logo.png" alt="Company Logo"></a>
+                <h3>Contact</h3>
+                <address>
+                    <p><strong>Address:</strong> Wellington Road, Street 32. San Francisco</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                    <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                </address>
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="about">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="myaccount">
+                <h3>My Account</h3>
+                <ul>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">View Cart</a></li>
+                    <li><a href="#">My Wishlist</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="install">
+                <h3>Install App</h3>
+                <p>From App Store or Google Play</p>
+                <div class="download">
+                    <a href="#"><img src="images/pay/app.jpg" alt="Download on the App Store"></a>
+                    <a href="#"><img src="images/pay/play.jpg" alt="Get it on Google Play"></a>
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="images/pay/pay.png" alt="Accepted Payment Methods">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
